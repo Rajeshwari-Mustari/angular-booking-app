@@ -1,0 +1,43 @@
+<div class="row" style="margin: 0;">
+  <div class="col-md-5 offset-md-4">
+    <div style="padding: 10px 0;">
+      <i class="fa fa-users"></i>
+      <span>Choose number of </span><span>people</span>
+    </div>
+    <table class="table table-bordered">
+      <tr>
+        <td width="100%">
+          <span><i class="fa fa-bed"></i></span>
+          Rooms
+        <!-- </td> -->
+        <!-- <td width="50%"> -->
+          <span (click)="roomDecrement()"><i class="fa fa-minus-circle"></i></span>
+          <span class="span-labels">{{rooms}}</span>
+          <span (click)="roomIncrement()"><i class="fa fa-plus-circle"></i></span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <i class="fa fa-user"></i>
+          Adults
+        <!-- </td> -->
+        <!-- <td> -->
+          <span (click)="decrementAdults()"><i class="fa fa-minus-circle"></i></span>
+          <span class="span-labels">{{adults}}</span>
+          <span (click)="incrementAdults()"><i class="fa fa-plus-circle"></i></span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <i class="fa fa-child"></i>
+          Children
+        <!-- </td> -->
+        <!-- <td> -->
+          <span (click)="decrementChildren()"><i class="fa fa-minus-circle"></i></span>
+          <span class="span-labels">{{children}}</span>
+          <span (click)="incrementChildren()"><i class="fa fa-plus-circle"></i></span>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

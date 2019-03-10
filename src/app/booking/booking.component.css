@@ -1,0 +1,21 @@
+.fa{
+    padding: 5px;
+    font-size: 25px;
+    color: #3c3c69;
+}
+.fa-minus-circle{
+    cursor: pointer;
+    margin: 0 10px;
+    color: red;
+    float: right;
+}
+.fa-plus-circle{
+    cursor: pointer;
+    margin: 0 10px;
+    color: green;
+    float: right;
+}
+.span-labels{
+    float: right;
+    margin: 6px;
+}
